@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html>
+ 
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
+    <style type="text/css">
+        body {
+            font-family: 'Times New Roman';
+            font-size: 12pt;
+            background-color: #f5f5dc;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            height: 100vh;
+        }
+ 
+        #container {
+            
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            max-width: 800px;
+            width: calc(100% - 40px);
+            max-height: 200vh;
+            overflow-y: auto;
+            overflow-x: scroll;
+        }
+ 
+        p {
+            margin: 0;
+            cursor: pointer;
+            display: inline-block;
+            margin-right: 10px;
+        }
+        #menu-line {
+            border-bottom: 2px solid green;
+            margin-bottom: 20px;
+        }
+ 
+        .content {
+            display: none;
+        }
+        h1 {
+            border-bottom: 1px dotted green;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+        .active {
+            text-decoration: underline;
+            text-decoration-style: double;
+            text-decoration-color: blue;
+        }
+        ul {
+            list-style-type: none;
+            padding-left: 20px;
+        }
+ 
+        ul li::before {
+            content: "●";
+            color: green;
+            font-size: 1.2em;
+            margin-right: 5px;
+        }
+        body {
+            font-family: Arial, sans-serif;
+        }
+ 
+        .question {
+            cursor: pointer;
+            margin-bottom: 10px;
+        }
+ 
+        .answer {
+            display: none;
+            margin-left: 20px;
+        }
+ 
+        .plus-minus {
+            display: inline-block;
+            width: 20px;
+            text-align: center;
+        }
+ 
+        .plus-minus::before {
+            content: '+';
+            font-size: 20px;
+        }
+ 
+        .plus-minus.open::before {
+            content: '-';
+        }
+    </style>
+</head>
+ 
+<body>
+    <div id="container">
+        <div id="menu-line">
+        <p id="overview">Overview</p>
+        <p id="eligibility">Eligibility</p>
+        <p id="preparation">Preparation</p>
+        <p id="about">About Treatment</p>
+        <p id="care">Post-Treatment Care</p>
+        <p id="recovery">Recovery Tips</p>
+        <p id="faqs">FAQs</p>
+        
+        </div>
+ 
+        <div class="content" id="overviewContent">
+            <h1>Treatment Overview.</h1>
+            <p>Lorem incididunt ut labore ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+            <h1>Eligibility For Treatment.</h1>
+            <p>Any individual who has tried diet and exercise but failed to lose weight is considered as a good candidate for gastic bypass.</br> Although gastic bypass aids in weight loss, it is not an approptriate option for everyone.
+            </br>
+            <p style="padding-top: 30px;">
+                In general, gastic bypass could be a good option if:
+                <div id="ul">
+                    <ul>
+                        <li>The BMI</li>
+                        <li>Your BMI</li>
+                        <li>It's BMI</li>
+                    </ul>
+                </div>
+            </p>
+            
+            </p>
+            <h1>Prepration Before Treatment</h1>
+            <p>Any individual who has tried diet and exercise but failed to lose weight is considered as a good candidate for gastic bypass.</br> Although gastic bypass aids in weight loss, it is not an approptriate option for everyone.
+            </br>
+            <p style="padding-top: 30px;">
+                In general, gastic bypass could be a good option if:
+                <div id="ul">
+                    <ul>
+                        <li>The BMI</li>
+                        <li>Your BMI</li>
+                        <li>It's BMI</li>
+                    </ul>
+                </div>
+            </p>
+            
+            </p>
+            <h1>About Treatment</h1>
+            <p>Any individual who has tried diet and exercise but failed to lose weight is considered as a good candidate for gastic bypass.</br> Although gastic bypass aids in weight loss, it is not an approptriate option for everyone.
+            </br>
+            <p style="padding-top: 30px;">
+                In general, gastic bypass could be a good option if:
+                <div id="ul">
+                    <ul>
+                        <li>The BMI</li>
+                        <li>Your BMI</li>
+                        <li>It's BMI</li>
+                    </ul>
+                </div>
+            </p>
+            
+            </p>
+            <h1>Post-Treatment Care Treatment</h1>
+            <p>Any individual who has tried diet and exercise but failed to lose weight is considered as a good candidate for gastic bypass.</br> Although gastic bypass aids in weight loss, it is not an approptriate option for everyone.
+            </br>
+            <p style="padding-top: 30px;">
+                In general, gastic bypass could be a good option if:
+                <div id="ul">
+                    <ul>
+                        <li>The BMI</li>
+                        <li>Your BMI</li>
+                        <li>It's BMI</li>
+                    </ul>
+                </div>
+            </p>
+            
+            </p>
+            <h1> Treatment Recovery Tips</h1>
+            <p>Any individual who has tried diet and exercise but failed to lose weight is considered as a good candidate for gastic bypass.</br> Although gastic bypass aids in weight loss, it is not an approptriate option for everyone.
+            </br>
+            <p style="padding-top: 30px;">
+                In general, gastic bypass could be a good option if:
+                <div id="ul">
+                    <ul>
+                        <li>The BMI</li>
+                        <li>Your BMI</li>
+                        <li>It's BMI</li>
+                    </ul>
+                </div>
+            </p>
+            
+            </p>
+            <div>
+            <h1>Treatment FAQs</h1>
+            <div class="faq">
+                <div class="question">
+                    <span class="plus-minus"></span> How do I know the clinic I am searching is verified?
+                </div>
+                <div class="answer">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed fermentum odio vel aliquet laoreet. Cras consequat, ex at maximus ullamcorper, velit felis interdum arcu, in gravida orci est ut eros.
+                </div>
+        
+                <div class="question">
+                    <span class="plus-minus"></span> Question 2: Why do we use it?
+                </div>
+                <div class="answer">
+                    Fusce et ultricies sapien, nec blandit velit. Suspendisse potenti. Phasellus sagittis est eget est hendrerit, eget laoreet libero tincidunt.
+                </div>
+        
+                <div class="question">
+                    <span class="plus-minus"></span> Question 3: Where does it come from?
+                </div>
+                <div class="answer">
+                    Nam condimentum nunc in ante tincidunt, eu sodales metus tempus. Donec vestibulum pharetra faucibus. Duis nec mi at orci ultricies rutrum.
+                </div>
+        
+                <div class="question">
+                    <span class="plus-minus"></span> Question 4: How can I use it?
+                </div>
+                <div class="answer">
+                    Sed ac lobortis est. Integer congue efficitur nulla, eu aliquam lacus venenatis nec. Proin commodo, ligula in pellentesque suscipit, lorem est fermentum mi, vel bibendum risus leo ac elit.
+                </div>
+            </div>
+        
+            <script>
+                document.addEventListener('DOMContentLoaded', function () {
+                    var questions = document.querySelectorAll('.question');
+        
+                    questions.forEach(function (question) {
+                        question.addEventListener('click', function () {
+                            this.classList.toggle('open');
+                            var answer = this.nextElementSibling;
+                            if (answer.style.display === 'block') {
+                                answer.style.display = 'none';
+                            } else {
+                                answer.style.display = 'block';
+                            }
+                            var plusMinus = this.querySelector('.plus-minus');
+                            plusMinus.classList.toggle('open');
+                        });
+                    });
+                });
+            </script>
+            </div>
+ 
+            
+        </div>
+ 
+    </div>
+ 
+    <script>
+       
+        const sections = document.querySelectorAll('p');
+        const contents = document.querySelectorAll('.content');
+ 
+        
+        sections.forEach(section => {
+            section.addEventListener('click', () => {
+              
+                contents.forEach(content => content.style.display = 'none');
+ 
+                
+                sections.forEach(s => s.classList.remove('active'));
+ 
+               
+                const contentId = section.id + 'Content';
+                const contentToShow = document.getElementById(contentId);
+                if (contentToShow) {
+                    contentToShow.style.display = 'block';
+                    section.classList.add('active');
+                }
+            });
+        });
+    </script>
+</body>
+ 
+</html>
